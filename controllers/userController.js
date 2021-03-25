@@ -3,7 +3,7 @@ import path from "path";
 import User from "../model/User.js";
 
 /**
- * since we're using ES6, commonJS variables like __dirname don't exist.
+ * since we're using ES6 modules, commonJS variables like __dirname don't exist.
  * Instead, we use the path.resolve() to get the **root** folder's path, so we don't need to join the '..' to go a folder up.
  */
 const userPath = path.join(path.resolve(), "data", "users.json");
