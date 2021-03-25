@@ -1,4 +1,5 @@
-import { promises as fs } from "fs"; //using the promises module within fs
+//using the promises module within fs. Unlike the regular fs module, the fs/promises module encapsulates the return of the fs functions in a promise already.
+import { promises as fs } from "fs";
 import path from "path";
 import User from "../model/User.js";
 
